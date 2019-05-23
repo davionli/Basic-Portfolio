@@ -1,15 +1,17 @@
 header{
     background-color: #ffffff;
     display: flex;
+    /* width: 100%; */
     padding: 0 15% 0 15%;
 }
 footer{
     background-color: #666666;
     border-top: 4px solid #4aaaa5; 
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     padding: 20px;
-    width: 100%;
+    text-align: center;
+    /* width: 100%; */
 }
 html{
     height: 100%;
@@ -18,19 +20,26 @@ body{
     height: 100%;
     display: flex;
     flex-direction: column;
+    /* position: relative; */
     background-image: url("../images/papyrus.png");
 }
 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
     line-height: 30px;
+    /* margin-left: 5px; */
+}
+a{
+    text-decoration: none;
+    color: #777777;
 }
 #name{
-    font-size: 3em;
+    font-size: 2.5em;
+    padding: 5px;
     color: #ffffff;
     background-color: #4aaaa5;
 }
-.navbarflex{
+.navbar{
     display: flex;
     flex-direction: row;
     position: absolute;
@@ -39,15 +48,14 @@ p{
 .nav_items{
     padding: 0.6em;
     margin-top: 0.35em;
-    color: gray;
 }
 .nav_border{
     border-right: 1px solid #777777;
 }
 .about_container{
     background-color: #ffffff;
-    border: 1px solid black;
     margin: 50px 15% 20% 15%;
+    margin-bottom: 50px;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -55,17 +63,20 @@ p{
 }
 #img_para{
     display: inline;
-
+    padding: 5px;
 }
 .about_me{
     color: #4aaaa5;
     font-size: 2em;
     padding: 0.5em;
     margin: 10px;
-    border: 1px solid black;
     border-bottom: 3px solid #666666;
 }
 .photo{
     border-radius: 50%;
+    padding-right: 10px;
     float: left;
+}
+#copyright{
+    color: white;
 }
