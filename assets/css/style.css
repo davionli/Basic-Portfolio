@@ -1,28 +1,38 @@
 header{
-    background-color: yellow;
+    background-color: #ffffff;
     display: flex;
-    padding: 0 10% 0 10%;
+    padding: 0 15% 0 15%;
 }
 footer{
-    background-color: yellow;
-    display: flex;
-    border: 3px solid black; 
-    justify-content: center;
+    background-color: #666666;
+    border-top: 4px solid #4aaaa5; 
+    flex-shrink: 0;
     padding: 20px;
 }
+html{
+    height: 100%;
+}
 body{
-    background-color:salmon;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/papyrus.png");
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 30px;
 }
 #name{
     font-size: 3em;
-    color: white;
-    background-color: cyan;
+    color: #ffffff;
+    background-color: #4aaaa5;
 }
 .navbarflex{
     display: flex;
     flex-direction: row;
-    position: absolute;
-    right: 10%;
+    align-content: flex-end;
+    right: 15%;
 }
 .nav_items{
     padding: 0.6em;
@@ -30,20 +40,28 @@ body{
     color: gray;
 }
 .nav_border{
-    border-right: 1px solid gray;
+    border-right: 1px solid #777777;
 }
 .about_container{
-    background-color: pink;
+    background-color: #ffffff;
     border: 1px solid black;
-    margin: 20px 10% 20% 10%;
-    /* display: inline-flex; */
+    margin: 20px 15% 20% 15%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#img_para{
+    display: inline-flex;
+    flex-direction: row;
 }
 .about_me{
-    color: cyan;
+    color: #4aaaa5;
     font-size: 2em;
     padding: 0.5em;
     margin: 10px;
     border: 1px solid black;
+    border-bottom: 3px solid #666666;
+    
 }
 .photo{
     border-radius: 50%;
