@@ -1,0 +1,50 @@
+header{
+    background-color: yellow;
+    display: flex;
+    padding: 0 10% 0 10%;
+}
+footer{
+    background-color: yellow;
+    display: flex;
+    border: 3px solid black; 
+    justify-content: center;
+    padding: 20px;
+}
+body{
+    background-color:salmon;
+}
+#name{
+    font-size: 3em;
+    color: white;
+    background-color: cyan;
+}
+.navbarflex{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 10%;
+}
+.nav_items{
+    padding: 0.6em;
+    margin-top: 0.35em;
+    color: gray;
+}
+.nav_border{
+    border-right: 1px solid gray;
+}
+.about_container{
+    background-color: pink;
+    border: 1px solid black;
+    margin: 20px 10% 20% 10%;
+    /* display: inline-flex; */
+}
+.about_me{
+    color: cyan;
+    font-size: 2em;
+    padding: 0.5em;
+    margin: 10px;
+    border: 1px solid black;
+}
+.photo{
+    border-radius: 50%;
+}
