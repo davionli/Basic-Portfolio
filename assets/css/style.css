@@ -1,7 +1,17 @@
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    background-image: url("../images/papyrus.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
 header{
     background-color: #ffffff;
     display: flex;
     /* width: 100%; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 0 15% 0 15%;
 }
 footer{
@@ -16,16 +26,8 @@ footer{
 html{
     height: 100%;
 }
-body{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    /* position: relative; */
-    background-image: url("../images/papyrus.png");
-}
 p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 30px;
     /* margin-left: 5px; */
 }
