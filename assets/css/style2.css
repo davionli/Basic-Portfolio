@@ -31,3 +31,4 @@ input{
 #sub{
     margin-top: 20px;
 }
+input.wide {display:block; width:100%;padding:0;border-width:0}
